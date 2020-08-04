@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoC_Record_Cleaner", "CoC_Record_Cleaner\CoC_Record_Cleaner.csproj", "{C8419C63-2F5D-46D1-AA35-DA21B63AD55D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D462E7F-7298-4205-81F8-5697991CAA04} = {3D462E7F-7298-4205-81F8-5697991CAA04}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandler", "FileHandler\FileHandler.csproj", "{3D462E7F-7298-4205-81F8-5697991CAA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8419C63-2F5D-46D1-AA35-DA21B63AD55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8419C63-2F5D-46D1-AA35-DA21B63AD55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8419C63-2F5D-46D1-AA35-DA21B63AD55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8419C63-2F5D-46D1-AA35-DA21B63AD55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D462E7F-7298-4205-81F8-5697991CAA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D462E7F-7298-4205-81F8-5697991CAA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D462E7F-7298-4205-81F8-5697991CAA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D462E7F-7298-4205-81F8-5697991CAA04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC4FDB8-CA87-4B47-A280-84DF3371FB71}
+	EndGlobalSection
+EndGlobal
